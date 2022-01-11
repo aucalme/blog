@@ -20,6 +20,19 @@
 	%>
 	
 	<h2>서버 시간: <%= today.toString() %></h2>
+	
+	<%!
+	private String userName; // 멤버 변수 선언
+	
+	// 메서드 정의
+	public String getUserName() {
+		System.out.println("getUserName() 메서드 호출");
+		return "오쌤";
+	}
+	%>
+	
+	<h2>사용자 이름: <%= getUserName() %></h2>
+	
 	<!-- HTML 주석 -->
 	<script>
 	/*JavaScript block comment*/
