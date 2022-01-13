@@ -72,7 +72,7 @@ public class BoardDaoImpl implements BoardDao {
 				e.printStackTrace();
 			}
 		}
-		return null;
+		return list;
 	}
 
 }

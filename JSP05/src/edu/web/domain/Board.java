@@ -24,7 +24,7 @@ public class Board {
 	private String title;
 	private String content;
 	private String userId;
-	private Date redDate;
+	private Date regDate;
 	private int viewCount;
 	private int replyCount;
 	private String attachment;
@@ -38,7 +38,7 @@ public class Board {
 		this.title = title;
 		this.content = content;
 		this.userId = userId;
-		this.redDate = redDate;
+		this.regDate = redDate;
 		this.viewCount = viewCount;
 		this.replyCount = replyCount;
 		this.attachment = attachment;
@@ -77,12 +77,12 @@ public class Board {
 		this.userId = userId;
 	}
 
-	public Date getRedDate() {
-		return redDate;
+	public Date getRegDate() {
+		return regDate;
 	}
 
-	public void setRedDate(Date redDate) {
-		this.redDate = redDate;
+	public void setRegDate(Date redDate) {
+		this.regDate = redDate;
 	}
 
 	public int getViewCount() {
