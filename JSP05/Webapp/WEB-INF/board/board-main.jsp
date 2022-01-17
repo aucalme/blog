@@ -47,7 +47,9 @@
 							<tr>
 								<%--${b.bno}: Board 객체 b의 getBno() 메서드 호출 결과 --%>
 								<td>${b.bno}</td>
-								<td>${b.title}</td>
+								<td>
+									<a href="detail?bno=${b.bno}">${b.title}</a>
+								</td>
 								<td>${b.userId}</td>
 								<fmt:formatDate value="${b.regDate}" pattern="yyyy-MM--dd HH:mm:ss" var="reg_date"/>
 								<td>${reg_date}</td>
