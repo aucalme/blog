@@ -27,8 +27,7 @@
 						<a class="nav-link" href="./main">게시판 메인</a>
 					</li>
 					<li class="nav-item">
-						<!-- TODO -->
-						<a class="nav-link" >수정하기</a>
+						<a class="nav-link" href="./update?bno=${board.bno}">수정하기</a>
 					</li>
 				</ul>
 			</nav>
